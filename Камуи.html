@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            display: flex;
+        }
+        .container {
+            margin: auto;
+            background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4b2c3705-6872-4d5c-ac64-227a92fe26d4/d7oem9c-cec2c673-bfee-4822-bae1-8d9f4e3a7d42.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRiMmMzNzA1LTY4NzItNGQ1Yy1hYzY0LTIyN2E5MmZlMjZkNFwvZDdvZW05Yy1jZWMyYzY3My1iZmVlLTQ4MjItYmFlMS04ZDlmNGUzYTdkNDIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VIJACncdeWbCTQDwrxmyrsC9yBoiJmcQoG4tbqYg5LQ);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            animation-name: animation;
+            animation-duration: 0.01s;
+            animation-iteration-count: infinite;
+            
+        }
+        @keyframes animation {
+            0%{
+                transform: rotate(25deg);
+            }
+            50% {
+                transform: rotate(-25deg);
+            }
+            100% {
+                transform:rotate(25deg)
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container"></div>
+        <div class="container"></div>
+    </div>
+    
+</body>
+</html>
